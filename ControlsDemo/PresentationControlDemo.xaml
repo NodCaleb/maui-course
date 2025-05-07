@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlsDemo.PresentationControlDemo"
+             Title="PresentationControlDemo">
+    <ScrollView>
+        <VerticalStackLayout>
+            <BoxView
+            BackgroundColor="Black"
+            HeightRequest="200"
+            />
+            <Label
+            Text="MAUI"
+            TextColor="Black"
+            FontAttributes="Bold"
+            FontSize="Large"
+            HorizontalTextAlignment="Center"
+            />
+            <Ellipse 
+            Fill="Yellow"
+            Stroke="Blue"
+            StrokeThickness="10"
+            HeightRequest="100"
+            HorizontalOptions="Center"
+            WidthRequest="200"
+            />
+            <Line
+            Stroke="Red"
+            StrokeThickness="5"
+            X1="0"
+            X2="150"
+            Y1="0"
+            Y2="50"
+            />
+            <Rectangle 
+            Stroke="Black"
+            StrokeThickness="5"
+            HeightRequest="50"
+            WidthRequest="150"
+            RadiusX="20"
+            RadiusY="20"
+            HorizontalOptions="End"
+            />
+            <Polygon
+            Fill="LightBlue"
+            Stroke="DarkBlue"
+            Points="40,10 70,80 10,50 20,20"
+            StrokeDashArray="1,1"
+            StrokeDashOffset="60"
+            />
+            <Polyline
+            Points="40,10 70,80 10,50 20,20"
+            Stroke="Red"
+                
+            />
+            <Image Source="dotnet_bot.png" />
+            <Border>
+                <Label
+                    Text=".Net"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    HorizontalTextAlignment="Center"
+                    />
+            </Border>
+            <Frame
+                Margin="5"
+                Padding="5"
+                BackgroundColor="Azure"
+                >
+                <Image Source="dotnet_bot.png" Aspect="Fill" />
+            </Frame>
+            <WebView 
+                HeightRequest="200"
+                Source="https://github.com"
+                />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
