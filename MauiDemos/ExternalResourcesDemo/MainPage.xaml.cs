@@ -1,25 +1,36 @@
-﻿namespace ExternalResourcesDemo
+﻿using System.Text.Json;
+
+namespace ExternalResourcesDemo
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        protected override async void OnAppearing()
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            base.OnAppearing();
+            // Load the Maui asset
+            await LoadMauiAsset();
         }
+
+        async Task LoadMauiAsset()
+        {
+            using var stream = await FileSystem.OpenAppPackageFileAsync("data.json");
+            using var reader = new StreamReader(stream);
+
+            var contents = reader.ReadToEnd();
+
+            var p = JsonSerializer.Deserialize<Person>(contents);
+        }
+    }
+
+    public class Person
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
     }
 
 }
