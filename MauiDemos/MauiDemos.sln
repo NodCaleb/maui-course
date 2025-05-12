@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagesDemo", "PagesDemo\Page
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectPay", "PerfectPay\PerfectPay.csproj", "{59FBAC05-67F0-C7DC-0938-EB11ED712F2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeQuotes", "CodeQuotes\CodeQuotes.csproj", "{05AA1ABE-47A5-4697-A2A8-96D3201E7B70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B5A7C1E2-64CD-43CE-A659-6E04BA7FB1AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B5A7C1E2-64CD-43CE-A659-6E04BA7FB1AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A7C1E2-64CD-43CE-A659-6E04BA7FB1AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{B5A7C1E2-64CD-43CE-A659-6E04BA7FB1AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5A7C1E2-64CD-43CE-A659-6E04BA7FB1AD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0B11D92-2A2F-0591-C715-898206D61724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -51,6 +54,11 @@ Global
 		{59FBAC05-67F0-C7DC-0938-EB11ED712F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59FBAC05-67F0-C7DC-0938-EB11ED712F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59FBAC05-67F0-C7DC-0938-EB11ED712F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05AA1ABE-47A5-4697-A2A8-96D3201E7B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AA1ABE-47A5-4697-A2A8-96D3201E7B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AA1ABE-47A5-4697-A2A8-96D3201E7B70}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{05AA1ABE-47A5-4697-A2A8-96D3201E7B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AA1ABE-47A5-4697-A2A8-96D3201E7B70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
