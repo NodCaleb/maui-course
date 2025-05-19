@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalResourcesDemo", "ExternalResourcesDemo\ExternalResourcesDemo.csproj", "{B5A7C1E2-64CD-43CE-A659-6E04BA7FB1AD}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeQuotes", "CodeQuotes\CodeQuotes.csproj", "{05AA1ABE-47A5-4697-A2A8-96D3201E7B70}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabindingDemo", "DatabindingDemo\DatabindingDemo.csproj", "{9FDD5E87-DB6A-4FC3-AE00-BD6BD9F5DCEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman\Hangman.csproj", "{5BA73368-0949-4EAB-B710-465D380B0F6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +68,11 @@ Global
 		{9FDD5E87-DB6A-4FC3-AE00-BD6BD9F5DCEF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{9FDD5E87-DB6A-4FC3-AE00-BD6BD9F5DCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FDD5E87-DB6A-4FC3-AE00-BD6BD9F5DCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA73368-0949-4EAB-B710-465D380B0F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA73368-0949-4EAB-B710-465D380B0F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA73368-0949-4EAB-B710-465D380B0F6D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5BA73368-0949-4EAB-B710-465D380B0F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA73368-0949-4EAB-B710-465D380B0F6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
