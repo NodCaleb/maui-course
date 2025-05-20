@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabindingDemo", "Databind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman\Hangman.csproj", "{5BA73368-0949-4EAB-B710-465D380B0F6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmDemo", "MvvmDemo\MvvmDemo.csproj", "{B6177A9F-AE0F-4EBD-98F9-90EC0296F438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI", "BMI\BMI.csproj", "{949B8F2B-006A-49B0-94A3-DA02880C3031}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,15 @@ Global
 		{5BA73368-0949-4EAB-B710-465D380B0F6D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{5BA73368-0949-4EAB-B710-465D380B0F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BA73368-0949-4EAB-B710-465D380B0F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6177A9F-AE0F-4EBD-98F9-90EC0296F438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6177A9F-AE0F-4EBD-98F9-90EC0296F438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6177A9F-AE0F-4EBD-98F9-90EC0296F438}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B6177A9F-AE0F-4EBD-98F9-90EC0296F438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6177A9F-AE0F-4EBD-98F9-90EC0296F438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949B8F2B-006A-49B0-94A3-DA02880C3031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949B8F2B-006A-49B0-94A3-DA02880C3031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949B8F2B-006A-49B0-94A3-DA02880C3031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949B8F2B-006A-49B0-94A3-DA02880C3031}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
