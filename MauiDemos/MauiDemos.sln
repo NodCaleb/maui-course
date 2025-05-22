@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmDemo", "MvvmDemo\MvvmDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI", "BMI\BMI.csproj", "{949B8F2B-006A-49B0-94A3-DA02880C3031}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationDemo", "NavigationDemo\NavigationDemo.csproj", "{DC0C42D8-89DE-419A-A130-4463E2BC9279}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,11 @@ Global
 		{949B8F2B-006A-49B0-94A3-DA02880C3031}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{949B8F2B-006A-49B0-94A3-DA02880C3031}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{949B8F2B-006A-49B0-94A3-DA02880C3031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0C42D8-89DE-419A-A130-4463E2BC9279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0C42D8-89DE-419A-A130-4463E2BC9279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0C42D8-89DE-419A-A130-4463E2BC9279}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DC0C42D8-89DE-419A-A130-4463E2BC9279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0C42D8-89DE-419A-A130-4463E2BC9279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
