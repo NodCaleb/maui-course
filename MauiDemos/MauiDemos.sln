@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationDemo", "Navigatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiVerter", "MauiVerter\MauiVerter.csproj", "{1ADB66CE-5D12-499D-8DD7-255FA3016125}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StylesDemo", "StylesDemo\StylesDemo.csproj", "{0D1CB183-E000-4718-8261-FF6F8679FE17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,6 +108,10 @@ Global
 		{1ADB66CE-5D12-499D-8DD7-255FA3016125}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{1ADB66CE-5D12-499D-8DD7-255FA3016125}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ADB66CE-5D12-499D-8DD7-255FA3016125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1CB183-E000-4718-8261-FF6F8679FE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1CB183-E000-4718-8261-FF6F8679FE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1CB183-E000-4718-8261-FF6F8679FE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1CB183-E000-4718-8261-FF6F8679FE17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
